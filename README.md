@@ -38,3 +38,9 @@ public static String ConvertToChinese(Decimal number)
     return r;
 }
 ```
+
+其他
+1. -int.MinValue 的值还是int.MinValue \
+int.MinValue == -2^31 \
+int.MaxValue == 2^31-1 \
+-int.MinValue == 2^31 == int.MaxValue + 1, Overflows and become int.MinValue \
